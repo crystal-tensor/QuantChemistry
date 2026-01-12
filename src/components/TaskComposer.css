@@ -1,0 +1,122 @@
+.task-composer {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.task-composer h1 {
+  font-size: 2rem;
+  color: #2c3e50;
+  margin-bottom: 2rem;
+}
+
+.task-step {
+  margin-bottom: 2rem;
+}
+
+.task-step h2 {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: #34495e;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #3498db;
+}
+
+.step-number {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-radius: 50%;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.upload-options {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.divider {
+  color: #7f8c8d;
+  font-weight: 500;
+}
+
+.checkbox-group {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.checkbox-group input[type="checkbox"] {
+  width: auto;
+  cursor: pointer;
+}
+
+.checkbox-group label {
+  margin: 0;
+  cursor: pointer;
+  flex: 1;
+}
+
+.hint {
+  color: #7f8c8d;
+  font-style: italic;
+  margin-bottom: 1.5rem;
+}
+
+.backend-list {
+  margin-top: 1.5rem;
+}
+
+.backend-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+  border-left: 4px solid #3498db;
+  transition: all 0.3s;
+}
+
+.backend-item:hover {
+  background: #e9ecef;
+  transform: translateX(4px);
+}
+
+.backend-item input[type="checkbox"] {
+  width: auto;
+  margin-top: 0.25rem;
+  cursor: pointer;
+}
+
+.backend-item label {
+  flex: 1;
+  cursor: pointer;
+  margin: 0;
+}
+
+.backend-details {
+  margin-top: 0.5rem;
+  color: #666;
+  font-size: 0.9rem;
+  font-weight: normal;
+}
+
+.submit-button {
+  width: 100%;
+  padding: 1.25rem 2rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 2rem;
+}
+
